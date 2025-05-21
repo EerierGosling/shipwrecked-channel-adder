@@ -1,0 +1,17 @@
+{
+  "name": "shipwrecked-channel-adder",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx tsx index.ts",
+    "dev": "nodemon --exec ts-node index.ts"
+  },
+  "repository": "https://github.com/EerierGosling/shipwrecked-channel-adder.git",
+  "author": "Sofia Egan <108308587+EerierGosling@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@slack/bolt": "^4.4.0",
+    "dotenv": "^16.5.0"
+  }
+}
